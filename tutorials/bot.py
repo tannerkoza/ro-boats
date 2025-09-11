@@ -1,4 +1,4 @@
-members = ["adam", "eliza", "finn", "makenna", "sadie", "sam", "daniel", "roxy"]
+members = ["eliza", "finn", "makenna", "sadie", "sam", "anderson", "natalie", "roxy"]
 
 name = input("Hi, what is your name?: ")
 print(f"\nHello, {name}! It's nice to meet you.\n")
