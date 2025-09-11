@@ -9,7 +9,7 @@ else:
     loop_counter = 0
     while True:
         roboat_response = input(
-            "Do you love being a part of the Ro-boats? (yes or no): "
+            "Do you love being a part of DGC? (yes or no): "
         )
 
         if roboat_response.lower() == "yes":
@@ -30,7 +30,7 @@ else:
                 if english_response.lower() == "yes":
                     pass
                 elif english_response.lower() == "no":
-                    print("\nTry Duolingo!!! Or else.")
+                    print("\nTry Duolingo!!! Or else. DA GROUP OF CODERS #4LYFE!")
                     break
                 else:
                     break
