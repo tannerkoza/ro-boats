@@ -13,9 +13,14 @@ def main():
 def mission(drive_base):
     drive_base.straight(inches_to_mm(25))
     drive_base.turn(35)
-    drive_base.straight(inches_to_mm(2.5))
+    drive_base.straight(inches_to_mm(3))
     drive_base.turn(-80)
-    drive_base.straight((inches_to_mm(3)))
+    drive_base.straight((inches_to_mm(2.6)))
+    drive_base.turn(-35)
+    drive_base.straight(inches_to_mm(3))
+    wait(sec_to_msec(2))
+    drive_base.straight(inches_to_mm(-3))
+    drive_base.turn(-10)
 def initialize():
     # initialization
     LEFT_MOTOR = Motor(Port.A, Direction.COUNTERCLOCKWISE)
